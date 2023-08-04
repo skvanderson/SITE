@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum-sharlles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .education, .experience {
+      margin-bottom: 30px;
+    }
+    .profile-img {
+      max-width: 200px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: block;
+    }
+ 
+    .titulo {
+      color: #008080;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .conteudo {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    #direitos-autorais {
+    color: #126479;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Sharlles Andersonn da Costa Antunes</h1>
+    <p>ANALISTA DE MANUTENÇÃO</p>
+  </div>
+
+  <div class="container">
+    <img class="profile-img" src="images/sharlles.jpg" alt="sharlles">
+
+    <div class="contact-info">
+      <h2><a href="#contact" class="titulo">Informações de Contato</a></h2>
+      <p>Email: sharlleskrueger@yahoo.com.br</p>
+      <p>Telefone: (84) 9-9855-9398</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/sharlles-andersonn-252492104/" target="_blank">sharlles-andersonn-252492104</a></p>
+      <p>GitHub: <a href="https://github.com/skvanderson" target="_blank">skvanderson</a></p>
+    </div>
+
+    <div class="about-me">
+      <h2><a href="#about" class="titulo">Sobre Mim</a></h2>
+      <p class="conteudo">
+        Sou um analista de manutenção com experiência em operações em banco de dados e conhecimento em regras de negócio. Adoro resolver problemas e criar scripts para corrigir falhas. Também tenho experiência em atendimento ao cliente e garantir a satisfação do mesmo. Sou apaixonado por tecnologia e estou sempre buscando aprender coisas novas na área de redes e desenvolvimento.
+      </p>
+    </div>
+
+    <div class="education">
+      <h2><a href="#education" class="titulo">Educação</a></h2>
+      <p><strong>Universidade Federal Rural do Semi-Árido(UFERSA)</strong></p>
+      <p class="conteudo">Redes de Computadores - 02/2020 - 02/2022</p>
+      <p class="conteudo">AWS Fundamentos - 03/2023 - 05/2023</p>
+      <P class="conteudo">SQL Server - 04/2023 - 07/2023</P>
+    </div>
+
+    <div class="experience">
+      <h2><a href="#experience" class="titulo">Experiência Profissional</a></h2>
+      <p><strong>CSJ SISTEMAS</strong></p>
+      <p class="conteudo">Analista de Manutenção - Atual</p>
+      <ul>
+        <li class="conteudo">Operações em Banco de dados</li>
+        <li class="conteudo">Conhecimento em regra de negócio</li>
+        <li class="conteudo">Criação de Scripts para corrigir falhas</li>
+      </ul>
+  <p><strong>Brisanet Telecomunicações - 01/2020 - 01/2023</strong></p>
+  <p class="conteudo">Operador de Suporte Técnico</p>
+  <ul>
+    <li class="conteudo">Atendimento ao cliente</li>
+    <li class="conteudo">Garantir maior satisfação</li>
+    <li class="conteudo">Cumprimento de SLA</li>
+  </ul>
+</div>
+</div>
+
+<div style="text-align: center;">
+  <button onclick="downloadCurriculum()">Fazer o Download do Currículo</button>
+</div>
+
+<footer>
+  <p id="direitos-autorais">&copy; 2023 Sharlles Andersonn da Costa Antunes. Todos os direitos reservados.</p>  
+  </p>
+</footer>
+
+<script>
+  function downloadCurriculum() {
+    window.location.href = "files/CV-SharllesAnderson.pdf";
+  }
+</script>
+
+<link rel="icon" href="images/html-5.png" type="image/x-icon">
+
+</body>
+</html>
+
+
+
+
